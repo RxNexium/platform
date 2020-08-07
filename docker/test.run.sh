@@ -4,7 +4,7 @@
 
 set -e
 
-##sync
+sync
 
 cp .env.testing .env
 run_composer_install
